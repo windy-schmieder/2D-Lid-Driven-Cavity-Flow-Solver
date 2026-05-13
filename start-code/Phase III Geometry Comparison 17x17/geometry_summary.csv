@@ -1,0 +1,4 @@
+case,nodes,Re,width (m),height (m),aspect width:height,dx (m),dy (m),viscosity (N*s/m^2),iterations,converged,final conv,wall time (s)
+Square reference,17x17,10.0,0.05,0.05,1:1,0.003125,0.003125,0.005,1573,True,9.787253277767342e-09,9.385999375022948
+Wide cavity,17x17,10.0,0.1,0.05,2:1,0.00625,0.003125,0.01,5763,True,9.989734160757784e-09,28.206480459019076
+Tall cavity,17x17,10.0,0.05,0.1,1:2,0.003125,0.00625,0.005,1566,True,9.92790597178344e-09,8.269933416042477

@@ -1,0 +1,48 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     |
+    \\  /    A nd           | Course project lid-driven cavity
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      sampleDict;
+}
+
+type            sets;
+libs            ("libsampling.so");
+
+interpolationScheme cellPoint;
+
+setFormat       raw;
+
+sets
+(
+    verticalCenterline
+    {
+        type    lineUniform;
+        axis    xyz;
+        start   (0.025 0     0.0005);
+        end     (0.025 0.05  0.0005);
+        nPoints 65;
+    }
+
+    horizontalCenterline
+    {
+        type    lineUniform;
+        axis    xyz;
+        start   (0     0.025 0.0005);
+        end     (0.05  0.025 0.0005);
+        nPoints 65;
+    }
+);
+
+fields
+(
+    U
+    p
+);

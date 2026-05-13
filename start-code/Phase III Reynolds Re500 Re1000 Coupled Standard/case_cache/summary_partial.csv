@@ -1,0 +1,2 @@
+Re,nodes,solver method,h label,dx = dy (m),CFL,viscosity (N*s/m^2),iterations,converged,final conv,wall time (s)
+500.0,33x33,coupled,4,0.0015625,0.2,0.0001,41516,True,9.683562580589106e-11,372.5748204580159
