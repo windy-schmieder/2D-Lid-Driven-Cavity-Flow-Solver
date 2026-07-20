@@ -1,0 +1,20 @@
+====================================================================
+PINN V&V report — plots/pinn_cavity_Re100.pt, Re = 100
+====================================================================
+
+VERIFICATION
+  [PASS] V1 momentum residual RMS (interior): 9.081e-02  (threshold 1.500e-01)
+  [PASS] V2 max |div(u)| (continuity): 3.486e-14  (threshold 1.000e-05)
+  [PASS] V3 wall velocity RMS error: 5.198e-02  (threshold 6.000e-02)
+         wall velocity max error: 5.720e-01 (largest near the singular lid corners)
+
+VALIDATION
+  [PASS] W1 centerline u RMSE vs Ghia: 3.785e-02  (threshold 6.000e-02)
+  [PASS] W1 centerline v RMSE vs Ghia: 4.822e-02  (threshold 6.000e-02)
+  [PASS] W2 full-field velocity RMSE vs FD solver: 5.366e-02  (threshold 6.000e-02)
+         primary vortex center: (0.6450, 0.7850)  Ghia: (0.6172, 0.7344)
+  [PASS] W3 vortex center distance from Ghia: 0.0577  (threshold 0.0600)
+
+====================================================================
+ALL CHECKS PASSED: 7/7
+====================================================================

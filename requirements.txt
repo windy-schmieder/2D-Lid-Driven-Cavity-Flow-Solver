@@ -1,0 +1,7 @@
+numpy
+matplotlib
+pandas
+numba
+jupyter
+pytest
+torch  # only needed for pinn-surrogate/
