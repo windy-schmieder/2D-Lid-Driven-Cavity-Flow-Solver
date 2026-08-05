@@ -423,8 +423,8 @@ Most functions take a `vectorize` flag so the same operation can run as explicit
 ## Getting Started
 
 ```bash
-git clone https://github.com/windy-schmieder/mae4100-courseproject2.git
-cd mae4100-courseproject2
+git clone https://github.com/windy-schmieder/2D-Lid-Driven-Cavity-Flow-Solver.git
+cd 2D-Lid-Driven-Cavity-Flow-Solver
 pip install -r requirements.txt
 ```
 
